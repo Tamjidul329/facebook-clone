@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Facebook Clone</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+        <link rel="stylesheet" href="css/font5/all.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__logo-section">
+                
+                <div class="header__logo-icon">
+                    <i class="fab fa-facebook"></i>
+                </div>
+                <div class="header__logo-search">
+                    <i class="fas fa-search"></i>
+                    <input type="text">
+                </div>
+                <div class="header__mobile-button">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="header__menu-tabs">
+                <div class="header__menu-tab header__menu-tab--active">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="header__menu-tab">
+                    <i class="fas fa-flag">
+                        <div class="header__notification-bubble">
+                            3
+                        </div>
+                    </i>
+                </div>
+                <div class="header__menu-tab">
+                    <i class="fas fa-tv">
+                        <div class="header__notification-bubble">
+                            9
+                        </div>
+                    </i>
+                </div>
+                <div class="header__menu-tab">
+                    <i class="fas fa-store"></i>
+                </div>
+                <div class="header__menu-tab">
+                    <i class="fas fa-users"></i>
+                </div>
+            </div>
+            <div class="header__account">
+                <div class="header__actions">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" class="header__user-img">
+                    <span class="header__user-name">Jane Doe</span>
+                    <a href="#" class="header__circle-link">
+                        <i class="header__link-icon fas fa-plus"></i>
+                    </a>
+                    <a href="#" class="header__circle-link">
+                        <i class="header__link-icon fab fa-facebook-messenger"></i>
+                        <div class="header__notification-bubble">
+                            2
+                        </div>
+                    </a>
+                    <a href="#" class="header__circle-link">
+                        <i class="header__link-icon fas fa-bell"></i>
+                        <div class="header__notification-bubble">
+                            5
+                        </div>
+                    </a>
+                    <a href="#" class="header__circle-link">
+                        <i class="header__link-icon fas fa-sort-down"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section class="content-area content-area--feed">
+            <section class="sidenav">
+                <div class="sidenav__item">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" class="sidenav__item-img">
+                    <span class="sidenav__item-title">Jane Doe</span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <span class="sidenav__item-title">Friends</span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <span class="sidenav__item-title">
+                        Pages
+                        <span class="sidenav__item-notification">
+                            <div class="sidenav__item-notification-circle"></div> 9+ new
+                        </span>
+                    </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <span class="sidenav__item-title">
+                        Groups
+                        <span class="sidenav__item-notification">
+                            <div class="sidenav__item-notification-circle"></div> 3+ new
+                        </span>
+                    </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <span class="sidenav__item-title">Marketplace</span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <span class="sidenav__item-title">See More</span>
+                </div>
+
+                <div class="sidenav__line"></div>
+                <span class="sidnav__heading-title">Your Shortcuts</span>
+
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <span class="sidenav__item-title">Academy</span>
+                </div>
+                <div class="sidenav__item">
+                    <img src="https://play-lh.googleusercontent.com/bPz1guJ6FHF3oIOEy3KqwpaDDKO-hLRaZoyzmM8bLFLN8fWm6L0_EuUnkwv9iqPo3Ag" class="sidenav__item-img sidenav__item-8ball">
+                    <span class="sidenav__item-title">8 Ball Pool</span>
+                </div>
+                <div class="sidenav__item">
+                    <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e_400x400.jpg" class="sidenav__item-img">
+                    <span class="sidenav__item-title">Grandmas with Guns</span>
+                </div>
+            </section>
+            <section class="feed">
+                <div class="stories">
+                    <div class="stories__video-container">
+                        <img class="stories__bg" src="https://i.ytimg.com/vi/NlKamRgzIdk/maxresdefault.jpg">
+                        <div class="stories__title">
+                            <div class="stories__new-btn">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            Create a Story
+                        </div>
+                    </div>
+                    <div class="stories__video-container stories__video-container--plain">
+                        <img class="stories__bg" src="https://i.makeagif.com/media/6-23-2015/xgwO2w.gif">
+                        <div class="stories__title">
+                            <img class="stories__user" src="https://randomuser.me/api/portraits/women/95.jpg">
+                            Cindy Bane
+                        </div>
+                    </div>
+                    <div class="stories__video-container stories__video-container--plain">
+                        <img class="stories__bg" src="https://media.cnn.com/api/v1/images/stellar/prod/210123170423-eminem-file.jpg?q=w_2000,h_1539,x_0,y_0,c_fill">
+                        <div class="stories__title">
+                            <img class="stories__user" src="https://randomuser.me/api/portraits/men/95.jpg">
+                            Mark Rowan
+                        </div>
+                    </div>
+                    <div class="stories__video-container stories__video-container--plain">
+                        <img class="stories__bg" src="https://media.self.com/photos/60245124eacc8a34f49ae81f/4:3/w_2560%2Cc_limit/1231085052">
+                        <div class="stories__title">
+                            <img class="stories__user" src="https://randomuser.me/api/portraits/women/96.jpg">
+                            Karen Bades
+                        </div>
+                    </div>
+                    <div class="stories__video-container stories__video-container--plain">
+                        <img class="stories__bg" src="https://secretnyc.co/wp-content/uploads/2022/03/New-Project-9.png">
+                        <div class="stories__title">
+                            <img class="stories__user" src="https://randomuser.me/api/portraits/women/75.jpg">
+                            Kristy Christian
+                        </div>
+                    </div>
+                    <div class="stories__video-container stories__video-container--plain">
+                        <img class="stories__bg" src="https://st.depositphotos.com/1006542/4956/i/950/depositphotos_49567497-stock-photo-business-fight.jpg">
+                        <div class="stories__title">
+                            <img class="stories__user" src="https://randomuser.me/api/portraits/men/75.jpg">
+                            Jebron Lames
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="status newpost">
+                    <div class="status__user">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="status__user-img">
+                        <input type="text" placeholder="What's on your mind, Jane?">
+                    </div>
+                    <div class="hline"></div>
+                    <div class="status__icons">
+                        <div class="status__icon status__icon-live">
+                            <i class="fas fa-video"></i>
+                            <span class="status__icon-text">Live Video</span>
+                        </div>
+                        <div class="status__icon status__icon-photo">
+                            <i class="fas fa-photo-video"></i>
+                            <span class="status__icon-text">Photo/Video</span>
+                        </div>
+                        <div class="status__icon status__icon-feeling">
+                            <i class="fas fa-laugh"></i>
+                            <span class="status__icon-text">Feeling/Activity</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="status photopost">
+                    <div class="photopost__info">
+                        <div class="photopost__left">
+                            <img src="https://randomuser.me/api/portraits/men/47.jpg">
+                            <div class="photopost__details">
+                                <span class="=photopost__name">James Dope</span>
+                                <span class="photopost__date">December 17 at 10:30pm<i class="fas fa-user-friends"></i></span>
+                            </div>
+                        </div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div> 
+                    <div class="photopost__description">
+                        What a gorgeous view!!
+                    </div>
+                    <div class="photopost__image">
+                        <img src="https://www.visitthecatskills.com/sites/default/files/styles/960x640_persona/public/dsc_1598-01.jpeg?itok=Zsi51tYC">
+                    </div>
+                    <div class="photopost__stats">
+                        <div class="photopost__stats-emojis">
+                            <div class="emoji-circle emoji-circle--blue">
+                                <i class="fas fa-thumbs-up"></i>
+                            </div>
+                            <div class="emoji-circle emoji-circle--red">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="emoji-circle emoji-circle--yellow">
+                                <i class="fas fa-surprise"></i>
+                            </div>
+                            3.3k
+                        </div>
+                        <div class="photopost__stats-share">
+                            788 Comments 73 shares
+                        </div>
+                    </div>
+                    <div class="hline"></div>
+                    <div class="photopost__actions">
+                        <a href="#" class="photopost__link">
+                            <i class="fas fa-thumbs-up"></i> Like
+                        </a>
+                        <a href="#" class="photopost__link">
+                            <i class="fas fa-comment"></i> Comment
+                        </a>
+                        <a href="#" class="photopost__link">
+                            <i class="fas fa-share"></i> Share
+                        </a>
+                    </div>
+                    <div class="hline"></div>
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="contact__header">
+                    <span class="contact__text">Contacts</span>
+                    <i class="fas fa-video"></i>
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/women/95.jpg" class="contact__img"> <span class="contact__name">Cindy Bane</span>
+                    <div class="green-circle"></div>
+                </div>
+                <div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/women/96.jpg" class="contact__img"> <span class="contact__name">Karen Bades</span>
+                    <div class="green-circle"></div>
+                </div><div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/men/75.jpg" class="contact__img"> <span class="contact__name">Jebron Lames</span>
+                    <div class="green-circle"></div>
+                </div><div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/women/75.jpg" class="contact__img"> <span class="contact__name">Kristy Christian</span>
+                    <div class="green-circle"></div>
+                </div><div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/men/95.jpg" class="contact__img"> <span class="contact__name">Mark Rowan</span>
+                    <div class="green-circle"></div>
+                </div>
+
+                <div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/women/91.jpg" class="contact__img"> <span class="contact__name">Cindy Bane</span>
+                    <div class="green-circle"></div>
+                </div>
+                <div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/women/92.jpg" class="contact__img"> <span class="contact__name">Karen Bades</span>
+                    <div class="green-circle"></div>
+                </div><div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/men/73.jpg" class="contact__img"> <span class="contact__name">Jebron Lames</span>
+                    <div class="green-circle"></div>
+                </div><div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/women/74.jpg" class="contact__img"> <span class="contact__name">Kristy Christian</span>
+                    <div class="green-circle"></div>
+                </div><div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/men/55.jpg" class="contact__img"> <span class="contact__name">Franklin Akedemiks</span>
+                    <div class="green-circle"></div>
+                </div>
+                <div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/women/66.jpg" class="contact__img"> <span class="contact__name">Maria Lepper</span>
+                    <div class="green-circle"></div>
+                </div>
+
+
+
+
+                <div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/women/99.jpg" class="contact__img"> <span class="contact__name">Tina Reynold</span>
+                    <div class="green-circle"></div>
+                </div><div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/men/69.jpg" class="contact__img"> <span class="contact__name">Tamjid Rahman</span>
+                    <div class="green-circle"></div>
+                </div><div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/men/66.jpg" class="contact__img"> <span class="contact__name">Phil Phillips</span>
+                    <div class="green-circle"></div>
+                </div><div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/women/69.jpg" class="contact__img"> <span class="contact__name">Margot Sanchez</span>
+                    <div class="green-circle"></div>
+                </div><div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/women/42.jpg" class="contact__img"> <span class="contact__name">Perry Doom</span>
+                    <div class="green-circle"></div>
+                </div><div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/men/65.jpg" class="contact__img"> <span class="contact__name">Michael Ramson</span>
+                    <div class="green-circle"></div>
+                </div><div class="contact__item">
+                    <img src="https://randomuser.me/api/portraits/women/77.jpg" class="contact__img"> <span class="contact__name">Ashley Pozevski</span>
+                    <div class="green-circle"></div>
+                </div>
+                
+                
+            </section>
+        </section>
+    </body>
+</html>
